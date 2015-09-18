@@ -1,0 +1,7 @@
+{
+  "name": "mypackage",
+  "version": "0.7.0",
+  "description": "Sample package",
+  "scripts": { "test": "node test/all.js" },
+  "devDependencies": { "test": ">=0.0.5" }
+}
