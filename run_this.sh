@@ -2,5 +2,5 @@
 
 set -ev
 
-echo "External script";
-exit 
+echo $TRAVIS_TEST_RESULT
+exit
