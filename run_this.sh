@@ -3,4 +3,4 @@
 set -ev
 
 echo "External script";
-exit 66
+exit 
