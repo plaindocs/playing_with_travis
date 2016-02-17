@@ -1,5 +1,5 @@
 language: erlang
-script: exit 666
+script: echo 'Script'
 after_success: echo "YES"
 after_failure: echo "NO"
 after_script: echo "ANYWAY"
