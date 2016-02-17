@@ -1,4 +1,5 @@
 language: erlang
 script: exit 666
-after_failure: echo $TRAVIS_TEST_RESULT 
-after_script: echo $TRAVIS_TEST_RESULT
+after_success: echo "YES"
+after_failure: echo "NO"
+after_script: echo "ANYWAY"
