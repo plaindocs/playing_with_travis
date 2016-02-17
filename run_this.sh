@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "External script";
-exit 666
+exit 66
