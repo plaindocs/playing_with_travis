@@ -1,5 +1,4 @@
 language: erlang
 script: ./run_this.sh
-after_script: echo $TRAVIS_MARIADB_VERSION
 addons:
   mariadb: '10.0' 

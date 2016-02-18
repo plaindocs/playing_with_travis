@@ -2,4 +2,4 @@
 
 set -ev
 
-echo `mariadb -v`
+echo $TRAVIS_MARIADB_VERSION
