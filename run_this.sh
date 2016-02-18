@@ -2,5 +2,4 @@
 
 set -ev
 
-echo $TRAVIS_TEST_RESULT
-exit
+echo `mariadb -v`
