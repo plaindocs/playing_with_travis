@@ -4,4 +4,4 @@ set -ev
 
 echo $TRAVIS_MARIADB_VERSION
 
-echo `mysql -v`
+echo `mysql -V`
