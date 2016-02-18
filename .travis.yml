@@ -5,3 +5,5 @@ addons:
 after_script: 'echo $TRAVIS_MARIADB_VERSION'
 before_script:
   - mysql -e "create database /*M!50701 IF NOT EXISTS */ gotest;" 
+services:
+  - mariadb
