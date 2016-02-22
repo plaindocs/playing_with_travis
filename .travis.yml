@@ -7,4 +7,4 @@ before_script:
   - mysql -e "create database /*M!50701 IF NOT EXISTS */ gotest;" 
 deploy:
     provider: script
-    script: 'echo $TRAVIS_MARIADB_VERSION; echo $CI'
+    script: 'echo $CI'
