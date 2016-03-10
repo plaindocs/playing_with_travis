@@ -1,2 +1,2 @@
-os: required
+os: osx
 script: psql --version
