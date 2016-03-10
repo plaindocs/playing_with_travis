@@ -1,4 +1,1 @@
-os: osx
-script: sudo echo `uname -a`
-before_install:
-  - brew update
+script: psql --version
