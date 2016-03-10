@@ -1,1 +1,2 @@
+os: required
 script: psql --version
