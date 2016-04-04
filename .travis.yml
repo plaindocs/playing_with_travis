@@ -1,2 +1,2 @@
-os: osx
-script: psql --version
+language: python
+script: echo $TRAVIS_PYTHON_VERSION
