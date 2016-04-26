@@ -1,2 +1,2 @@
-language: python
-script: echo $TRAVIS_PYTHON_VERSION
+language: php
+script: echo $TRAVIS_PHP_VERSION_
