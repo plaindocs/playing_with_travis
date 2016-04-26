@@ -1,2 +1,2 @@
-language: php
-script: echo $TRAVIS_PHP_VERSION_
+language: erlang
+script: echo $TRAVIS_ERLANG_VERSION_
