@@ -1,2 +1,5 @@
 language: erlang
 script: kerl list installations
+otp_release:
+  - 18.2.1
+  - 17.5
