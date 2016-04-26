@@ -1,2 +1,2 @@
 language: erlang
-script: echo $TRAVIS_ERLANG_VERSION_
+script: kerl list installations
