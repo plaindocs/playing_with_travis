@@ -1,5 +1,5 @@
 language: erlang
-script: echo "Test More" >> test.txt 
+script: echo "Test More" >> test.txt; pwd; ls;
 deploy:
   provider: releases
   api_key:
