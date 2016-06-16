@@ -1,9 +1,5 @@
 language: erlang
-script: kerl list installations
-otp_release:
-- 18.2.1
-- 17.5
-- R14B02
+script: echo "Test" >> test.txt 
 deploy:
   provider: releases
   api_key:
