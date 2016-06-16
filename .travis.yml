@@ -7,3 +7,5 @@ deploy:
   file: test.txt
   on:
     repo: plaindocs/playing_with_travis
+  on:
+    tags: true
