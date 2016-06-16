@@ -1,6 +1,13 @@
 language: erlang
 script: kerl list installations
 otp_release:
-  - 18.2.1
-  - 17.5
-  - R14B02
+- 18.2.1
+- 17.5
+- R14B02
+deploy:
+  provider: releases
+  api_key:
+    secure: gYTq3kYYjE93cMqMygJfuwn/+Xz+Q5XGYugBWca+nScvf9k06+NGPax9pEVRs/8L3QbcEAVuYI/CDXq5nji+7OZeCsquhhqnCz9RC2yuzDJvJtQ5BXWPfNdzC7YsFDIx1RzZ/lM7gLcc201uN3BNvrivilECjVYFoW/W8w6P3qxUJdd8V8dacPR7YFwqttMiKbPcrtaZbIpa0T1w2mQi/Rp4m4q1BQ3JwK+WSJBzqGZoDAUIz8iCirG8HfUWPWrNyoWfnCrKpSuvD9qlAzHGo6QETAEz9XsTB8e2qZHRKx36JCJrw6VN9JX/bbaTj3JYR4wfNxmNt9bv5hmb9V/BU9wJLbthMdGKsCzs8eHLnSiGy2mP4vgVqly+/Rxh2sm1B1jU68853q+CN78sXJPOMMZEjqm30wjXuhfQ4uAw/vhtYE2KHblVVMd/UbPCzPbMLeARwi/cXVknhaUncxy93mqen8kbv+zeHUKGld6RH6zuF7SPIi1gTxlKr1vLX9rBtHdpeVtOohyjkgOjhxooRN622TuP2Wn5GknQvwt2mz85uHJu/eOx3aY+cTfh7DTSBAbmcowjAXNI+rMW/efafAvnCgurA5xcL3QKv5/ZhxjMpGN3n5YDyWGSk5iQEy2a79mALLhhwfH6SiwSQX8Lk+iexRrVzZwD5Tkht4LpTAw=
+  file: test.txt
+  on:
+    repo: plaindocs/playing_with_travis
