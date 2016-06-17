@@ -1,5 +1,5 @@
 language: erlang
-script: "cd /; echo "Test More" >> test.txt; pwd; ls; echo $TRAVIS_BUILD_DIR"
+script: cd /; echo "Test More" >> test.txt; pwd; ls; echo $TRAVIS_BUILD_DIR
 deploy:
   provider: releases
   api_key:
