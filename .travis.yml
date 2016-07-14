@@ -1,3 +1,4 @@
 language: android
 sudo: true
 script: ls; sudo updatedb; locate source.properties
+after_success: sleep 2h
