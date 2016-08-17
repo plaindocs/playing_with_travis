@@ -1,4 +1,4 @@
-language: android
+language: php
 sudo: true
-script: ls; sudo updatedb; locate source.properties
-after_success: sleep 2h
+before_script: composer require atoum/atoum
+script: vendor/bin/atoum
