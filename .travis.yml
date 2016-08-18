@@ -4,7 +4,7 @@ services:
   - postgresql
 
 before_script:
-  - pg_config --version
+  - psql -c 'create database travis;' -U postgres;
 
 matrix:
   include:
@@ -14,4 +14,4 @@ matrix:
     - sudo: false
     - sudo: required
 
-script: psql -c 'SELECT version();'
+script: pg_config --version
