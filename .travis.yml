@@ -15,4 +15,4 @@ matrix:
     - sudo: required
       dist: precise
 
-script: pg_config --version
+script: psql -U travis -d travis 'select version();'
