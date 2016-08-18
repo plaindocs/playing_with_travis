@@ -15,4 +15,4 @@ matrix:
     - sudo: required
       dist: precise
 
-script: psql -U travis -d travis 'select * from version();'
+script: psql -U travis -d travis -c 'select * from version();'
