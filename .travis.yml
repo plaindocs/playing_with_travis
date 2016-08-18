@@ -14,5 +14,6 @@ matrix:
     - sudo: false
     - sudo: required
       dist: precise
+    - os: osx
 
 script: psql -U travis -d travis -c 'select * from version();'
