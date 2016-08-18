@@ -8,4 +8,4 @@ matrix:
     - sudo: false
     - sudo: required
 
-script: uname -a
+script: psql -c 'SELECT version();'
