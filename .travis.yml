@@ -13,5 +13,6 @@ matrix:
       sudo: required
     - sudo: false
     - sudo: required
+      dist: precise
 
 script: pg_config --version
