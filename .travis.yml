@@ -16,4 +16,4 @@ matrix:
       dist: precise
     - os: osx
 
-script: psql -U travis -d travis -c 'select * from version();'
+script: ls /usr/local/Cellar/postgresql/
