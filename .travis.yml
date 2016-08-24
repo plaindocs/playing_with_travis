@@ -8,4 +8,4 @@ matrix:
           dist: trusty
         - os: linux
           sudo: false
-script:  python --version; 'for p in virtualenv/*.*.*; do echo; source $p/bin/activate; python --version; pip list; done'
+script:  python --version; ls virtualenv/;
