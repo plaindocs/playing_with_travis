@@ -2,6 +2,8 @@ language: python
 
 os: linux
 dist: precise
+env: 
+ - MYPY=`python --version`
 
 script: python --version
 
