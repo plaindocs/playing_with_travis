@@ -2,17 +2,6 @@ language: python
 
 os: linux
 dist: precise
-env: 
- - MYPY=`python --version`
 
-script: export MYPY=`python --version`
+script: 'for p in virtualenv/*.*.*; do echo; source $p/bin/activate; python --version; done;'
 
-python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
-  - "3.5"
-  - "3.5-dev" # 3.5 development branch
-  - "nightly" # currently points to 3.6-dev
