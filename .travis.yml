@@ -8,4 +8,4 @@ matrix:
           dist: trusty
         - os: linux
           sudo: false
-script:  ls -l ~/virtualenv; python --version; python -c 'import sysconfig; print sysconfig.get_config_vars()'; 'for p in virtualenv/*.*.*; do echo; source $p/bin/activate; python --version; pip list; done'
+script:  python --version; 'for p in virtualenv/*.*.*; do echo; source $p/bin/activate; python --version; pip list; done'
