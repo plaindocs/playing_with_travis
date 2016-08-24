@@ -2,7 +2,6 @@ language: python
 
 matrix:
     include:
-        - os: osx
         - os: linux
           dist: precise
         - os: linux
