@@ -3,5 +3,5 @@ language: python
 os: linux
 dist: precise
 
-script: 'for p in virtualenv/*.*.*; do echo; source $p/bin/activate; python --version; done;'
+script: ls /usr/local/lib/python*
 
