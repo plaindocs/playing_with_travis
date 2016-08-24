@@ -8,10 +8,7 @@ script: echo $TEST1; echo $TEST2
 env:
   - MYPY=$(python --version)    
   - FOO=$(uname -a)
+  - FOO=`uname -a`
 
 python:
   - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
