@@ -4,7 +4,7 @@ matrix:
   include:
   - os: linux 
     dist: trusty
-  - os linux
+  - os: linux
     dist: precise 
 
 script: python --version
