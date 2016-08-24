@@ -2,9 +2,7 @@ language: python
 
 os: 
   - linux 
-    dist: precise
-  - linux
-    dist: trusty
+  - osx
 
 script: python --version
 
