@@ -8,4 +8,4 @@ matrix:
           dist: trusty
         - os: linux
           sudo: false
-script:  python --version; ls virtualenv/;
+script:  python --version; ls ~/virtualenv/;
