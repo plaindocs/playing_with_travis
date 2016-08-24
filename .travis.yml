@@ -3,5 +3,5 @@ language: python
 os: linux
 dist: precise
 
-script: ls /usr/local/lib/python*
+script: echo $TEST1; echo $TEST2
 
