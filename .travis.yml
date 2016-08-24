@@ -8,9 +8,9 @@ matrix:
           dist: trusty
         - os: linux
           sudo: false
-          env: MYOS=FALSE
+          env: MYPY=`python --version`
 
-script: python --version
+script: true
 
 python:
   - "2.6"
