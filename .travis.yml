@@ -1,8 +1,11 @@
 language: python
 
-os: 
-  - linux 
-  - osx
+matrix:
+  include:
+  - os: linux 
+    dist: trusty
+  - os linux
+    dist: precise 
 
 script: python --version
 
