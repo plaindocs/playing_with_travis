@@ -1,2 +1,2 @@
 language: ruby
-install: ruby test/test_helper.rb
+script: ruby test/test_helper.rb
