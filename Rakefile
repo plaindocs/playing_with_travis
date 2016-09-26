@@ -1,6 +1,0 @@
-require 'coveralls/rake/task'
-Coveralls::RakeTask.new
-task :test_with_coveralls => [:spec, :features, 'coveralls:push']
-
-
-bundle exec rake :test_with_coveralls
