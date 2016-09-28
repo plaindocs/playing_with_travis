@@ -1,2 +1,4 @@
-language: go
+os: osx
+
+script: swift hello.swift
 
