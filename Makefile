@@ -1,2 +1,0 @@
-make:
-	echo "MAKE THIS"
