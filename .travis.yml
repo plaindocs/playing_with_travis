@@ -1,3 +1,3 @@
 language: ruby
-install: false
+install: true
 script: ruby -v
