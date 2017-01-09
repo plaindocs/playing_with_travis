@@ -1,3 +1,5 @@
 language: node_js
+nodejs:
+  - "latest"
 install : npm install yarn
 script: yarn version
