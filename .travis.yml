@@ -1,5 +1,5 @@
 language: node_js
 nodejs:
-  - "latest"
+  - "6.1"
 install : npm install yarn
 script: yarn version
