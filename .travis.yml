@@ -1,3 +1,2 @@
-language: ruby
-install: true
-script: ruby -v
+language: js
+script: yarn version
