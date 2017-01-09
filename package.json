@@ -1,0 +1,5 @@
+{
+  "name": "example-yarn-package",
+  "version": "1.0.1",
+  "description": "An example package to demonstrate Yarn"
+}
