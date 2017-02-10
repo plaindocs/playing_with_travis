@@ -24,7 +24,7 @@ msgstr ""
 #. type: Plain text
 #: translatethis.md:4
 msgid "With some text."
-msgstr ""
+msgstr "Com texto."
 
 #. type: Plain text
 #: translatethis.md:5
