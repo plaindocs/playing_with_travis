@@ -1,2 +1,2 @@
 language: erlang
-script: kerl list installations
+script: kerl list installations; kerl list releases 
