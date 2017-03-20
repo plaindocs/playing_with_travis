@@ -1,1 +1,2 @@
 language: erlang
+script: kerl list installations
