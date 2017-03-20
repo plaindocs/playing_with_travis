@@ -1,6 +1,1 @@
-os: osx
-osx_image: xcode8.2
-before_install:
-  - brew install ccache
-script: ccache -V
-
+language: erlang
