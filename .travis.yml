@@ -1,4 +1,6 @@
-language: go
-go:
-  go1.8
-script: go version
+os: osx
+osx_image: xcode8
+before_install:
+  - brew install gcc && CC=gcc-6 && CXX=g++-6
+script:
+  - gcc -v
