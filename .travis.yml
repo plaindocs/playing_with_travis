@@ -3,4 +3,5 @@ osx_image: xcode8
 before_install:
   - brew install gcc6 && CC=gcc-6 && CXX=g++-6
 script:
-  - gcc -v
+  - $CC --version
+  - $CXX --version
