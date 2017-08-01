@@ -1,7 +1,6 @@
-os: osx
-osx_image: xcode8
-before_install:
-  - brew install gcc && CC=gcc-6 && CXX=g++-6
-script:
-  - $CC --version
-  - $CXX --version
+dist: trusty
+sudo: false
+services: mongodb
+script: 
+  - mongo mydb_test --eval 'db.addUser("travis", "test");' 
+  - mongo mydb_test --eval 'db.createUser("travis", "test");'
