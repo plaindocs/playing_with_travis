@@ -1,6 +1,5 @@
 dist: trusty
 sudo: false
 services: mongodb
-script: 
-#- mongo mydb_test --eval 'db.addUser("travis", "test");' 
-  - mongo mydb_test --eval 'db.createUser({ "user": "travis", "pwd": "test"});'
+script:
+  -  "db.createUser({user:'travis',pwd:'test'});"
