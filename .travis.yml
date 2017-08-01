@@ -1,5 +1,9 @@
 dist: trusty
 sudo: false
 services: mongodb
-script:
-  - mongo mydb_test --eval "db.createUser({'user':'travis','pwd':'test', 'roles': ['root']});"
+before_script:
+  - sleep 10
+  - mongo mydb_test --eval 'db.createUser({user:"travis",pwd:"test",roles:["readWrite","dbAdmin"]});'
+
+after_script:
+  - mongo --version
