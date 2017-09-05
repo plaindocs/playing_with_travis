@@ -5,4 +5,4 @@ node_js:
   - "iojs"
   - "7"
   - "6"
-script: ./list.sh
+script: for lan in perl php python rubies; do list-language-archive $lan; done
