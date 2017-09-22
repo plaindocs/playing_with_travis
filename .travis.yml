@@ -1,4 +1,4 @@
-language: go
+language: perl
 sudo: false
 dist: trusty
-script: echo 'Test'
+script: perl -v
