@@ -1,5 +1,4 @@
-language: python
+language: go
 sudo: false
 dist: trusty
-script: for lan in perl php python rubies; do ./list.sh archive $lan; done
-install: pip install awscli --upgrade --user
+script: echo 'Test'
