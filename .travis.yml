@@ -3,8 +3,8 @@ matrix:
     - os: linux
       dist: trusty
       sudo: required
-      python: 3.2
+      language: python
     - os: linux
       dist: trusty
       sudo: false
-      python: 3.2
+      language: python
