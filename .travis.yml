@@ -1,6 +1,10 @@
-rvm:
-  - 1.9.3
-  - rbx
-env:
-  - FOO=foo BAR=bar
-  - FOO=bar BAR=foo
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      python: 3.2
+    - os: linux
+      dist: trusty
+      sudo: false
+      python: 3.2
