@@ -1,3 +1,5 @@
+install: true
+script: true
 matrix:
   include:
     - os: linux
