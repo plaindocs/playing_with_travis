@@ -1,12 +1,2 @@
+os: osx
 install: true
-script: cat /usr/share/travis/system_info | nc termbin.com 9999
-matrix:
-  include:
-    - os: linux
-      dist: trusty
-      sudo: required
-      language: python
-    - os: linux
-      dist: trusty
-      sudo: false
-      language: python
