@@ -8,4 +8,4 @@ matrix:
     - sudo: required
       dist: precise
 
-script: mysql -v
+script: mysql -V
