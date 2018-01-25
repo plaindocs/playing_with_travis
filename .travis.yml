@@ -1,22 +1,20 @@
 language: ruby
+services:
+  - cassandra
 
 matrix:
   include:
     - sudo: required
       dist: trusty
-      TRAVIS_SUDO
 
     - sudo: required
       dist: precise
-      TRAVIS_SUDO
 
     - sudo: false
       dist: trusty
-      TRAVIS_SUDO
 
     - sudo: false
       dist: precise
-      TRAVIS_SUDO
       
 
-script: mysql -V
+script: mysql -V; cassandra -v
