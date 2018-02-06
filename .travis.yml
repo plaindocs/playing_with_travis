@@ -1,2 +1,3 @@
 dist: trusty
 script: rvm use rbx --install --fuzzy
+rvm: rbx-3
