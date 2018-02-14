@@ -5,3 +5,4 @@ before_install:
   - source ~/travis-perl-helpers/init --auto
 
 script: perl -v
+install: true
