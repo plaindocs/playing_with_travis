@@ -1,5 +1,5 @@
 os: osx
 osx_image: xcode9.2
-script: java -version; /Developer/usr/bin/xcodebuild -version
+script: java -version; system_profiler 
 
 
