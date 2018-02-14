@@ -1,5 +1,5 @@
 os: osx
-osx_image: xcode9
+osx_image: xcode8.3
 script: java -version; sw_vers
 
 
