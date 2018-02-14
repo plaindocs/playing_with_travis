@@ -1,5 +1,7 @@
-dist: trusty
-language: perl
+os: osx
+script: java -v
+matrix:
+        include:
+               osx_image: xcode9.3beta
 
-script: perl -v
-install: true
+
