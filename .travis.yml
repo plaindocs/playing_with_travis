@@ -1,5 +1,5 @@
 dist: trusty
 language: perl
 
-script: perl -v
+script: cpan -l
 install: true
