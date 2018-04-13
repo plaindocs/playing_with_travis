@@ -9,7 +9,6 @@ matrix:
     - os: linux
       dist: precise
       sudo: required
-    - os: osx
 
 language: generic
 
