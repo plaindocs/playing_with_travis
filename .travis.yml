@@ -12,4 +12,7 @@ matrix:
 
 language: generic
 
-script: export MGD=`mongod --version`
+env:
+  - MGD=`mongod --version`
+
+script: true
