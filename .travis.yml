@@ -1,13 +1,14 @@
-os:
-  - linux
-  - osx
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+    - os: linux
+      dist: trusty
+      sudo: false
+    - os: linux
+      dist: precise
+      sudo: required
+    - os: osx
 
-dist:
-  - trusty
-  - precise
-
-sudo:
-  - false
-  - true
-
-script: echo "Testing"
+script: mongod --version
