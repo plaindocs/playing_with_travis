@@ -1,5 +1,13 @@
-dist: trusty
-language: perl
+os:
+  - linux
+  - osx
 
-script: cpan -l
-install: true
+dist:
+  - trusty
+  - precise
+
+sudo:
+  - false
+  - true
+
+script: echo "Testing"
