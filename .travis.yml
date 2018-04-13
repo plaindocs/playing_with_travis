@@ -13,4 +13,4 @@ matrix:
 
 language: generic
 
-script: mongod --version
+script: export MGD=mongod --version
