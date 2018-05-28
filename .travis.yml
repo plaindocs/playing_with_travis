@@ -3,13 +3,17 @@ matrix:
     - os: linux
       dist: trusty
       sudo: required
-      language: python
+      language: ruby
     - os: linux
       dist: trusty
       sudo: false
-      language: python
+      language: ruby
     - os: linux
       dist: precise
       sudo: required
+      language: ruby
     - os: osx
+      dist: precise
+      sudo: required
+      language: ruby
 script: df -h
