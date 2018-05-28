@@ -1,3 +1,15 @@
-dist: trusty
-script: rvm use rbx --install --fuzzy
-rvm: rbx-3
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      language: python
+    - os: linux
+      dist: trusty
+      sudo: false
+      language: python
+    - os: linux
+      dist: precise
+      sudo: required
+    - os: osx
+script: df -h
