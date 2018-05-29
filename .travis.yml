@@ -1,4 +1,4 @@
 dist: trusty
 install: travis_retry ping google.test_ins
 script: travis_retry ping google.test_scr
-deploy: travis_retry ping google.test_dep
+after_sucess: travis_retry ping google.test_dep
