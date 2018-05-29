@@ -4,5 +4,6 @@ dist: trusty
 script: true
 #after_sucess: travis_retry ping google.test_dep
 deploy:
+  provider: script
   script:
       travis_retry ping TESTIT    
