@@ -6,4 +6,4 @@ script: true
 deploy:
   provider: script
   script:
-      bash travis_retry ping TESTIT    
+      ping TESTIT    
