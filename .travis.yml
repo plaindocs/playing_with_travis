@@ -1,2 +1,9 @@
-os: osx
-script: go version
+sudo: enabled
+language: java
+before_cache:
+  - rm -f  /root/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr /root/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - /root/.gradle/caches/
+    - /root/.gradle/wrapper/
