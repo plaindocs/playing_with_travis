@@ -5,5 +5,5 @@ before_cache:
   - sudo rm -fr /root/.gradle/caches/*/plugin-resolution/
 cache:
   directories:
-    - sudo /root/.gradle/caches/
-    - sudo /root/.gradle/wrapper/
+    - /root/.gradle/caches/
+    - /root/.gradle/wrapper/
