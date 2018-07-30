@@ -8,6 +8,8 @@ addons:
     packages:
     - postgresql-9.6-postgis-2.3
 
+script: true    
+
 services:
   - postgresql
 
