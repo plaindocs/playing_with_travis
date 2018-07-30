@@ -1,9 +1,9 @@
-sudo: enabled
-language: java
-before_cache:
-  - sudo rm -f  /root/.gradle/caches/modules-2/modules-2.lock
-  - sudo rm -fr /root/.gradle/caches/*/plugin-resolution/
-cache:
-  directories:
-    - /root/.gradle/caches/
-    - /root/.gradle/wrapper/
+os: linux
+dist: trusty
+language: ruby
+
+services:
+  - postgresql
+
+before_script:
+  - psql -U postgres -c "create extension postgis"  
