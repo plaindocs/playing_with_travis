@@ -2,8 +2,11 @@ os: linux
 dist: trusty
 language: ruby
 
+addons:
+  postgresql: "9.6"
+
 services:
   - postgresql
 
 before_script:
-  - psql -U postgres -c "create extension postgis"  
+  - psql -U postgres -c "create extension postgis"
