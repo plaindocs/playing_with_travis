@@ -1,9 +1,6 @@
-dist: trusty
-#before_install: travis_retry ping google.test_dep
-#install: travis_retry ping google.test_ins
-#before_script: travis_retry ping google.test_dep
-#script: travis_retry ping google.test_scr
-#after_sucess: travis_retry ping google.test_dep
-after_script: travis_retry ping google.test_dep
-
-script: true
+language: python
+python:
+  - "3.6"
+  - "2.7"
+script:
+  - pytest
