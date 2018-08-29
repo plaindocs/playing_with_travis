@@ -1,2 +1,2 @@
 os: osx
-script: which gcc
+script: gcc -v
