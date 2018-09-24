@@ -4,6 +4,6 @@ language: php
 php:
   - "7.2"
 install:
-  - pecl install ext-snmp
+  - pecl install net-snmp
 #before_script: echo "extension=snmp.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 script: php -i
