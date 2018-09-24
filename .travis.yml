@@ -3,5 +3,7 @@ sudo: false
 language: php
 php:
   - "7.2"
-before_script: echo "extension=snmp.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+install:
+  - pecl install snmp
+#before_script: echo "extension=snmp.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 script: php -i
