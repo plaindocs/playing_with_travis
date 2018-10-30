@@ -2,3 +2,5 @@ dist: trusty
 cache:
   directories:
     - "~/.platformio"
+
+script: true
