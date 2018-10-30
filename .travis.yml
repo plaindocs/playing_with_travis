@@ -1,3 +1,4 @@
+dist: trusty
 cache:
   directories:
     - "~/.platformio"p
