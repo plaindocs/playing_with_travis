@@ -6,5 +6,6 @@ install:
   - gem install html-proofer
 script: 
   - which htmlproof
-  - tox
+  - which htmlproofer
+    #- tox
 
