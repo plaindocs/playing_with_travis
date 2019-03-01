@@ -1,3 +1,4 @@
 dist: trusty
 language: perl
 script: perl -V
+install: true
