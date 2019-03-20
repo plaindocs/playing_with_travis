@@ -2,4 +2,4 @@ dist: xenial
 language: php
 php:
   - hhvm-nightly
-script: php -v
+script: echo $TRAVIS
